@@ -1,0 +1,50 @@
+{
+  "name": "brick-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tools/start-dev.sh",
+    "build": "tools/build.sh"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "mobx": "^6.5.0",
+    "mobx-react": "^7.4.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/autoprefixer": "^10.2.0",
+    "@types/classnames": "^2.3.1",
+    "@types/file-loader": "^5.0.1",
+    "@types/html-webpack-plugin": "^3.2.6",
+    "@types/postcss-calc": "^8.2.0",
+    "@types/postcss-modules-values": "^4.0.0",
+    "@types/postcss-url": "^10.0.0",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/webpack-dev-server": "^4.7.2",
+    "autoprefixer": "^10.4.7",
+    "css-loader": "^6.7.1",
+    "fork-ts-checker-webpack-plugin": "^7.2.11",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.13",
+    "postcss-calc": "^8.2.4",
+    "postcss-color-function": "^4.1.0",
+    "postcss-loader": "^6.2.1",
+    "postcss-modules-values": "^4.0.0",
+    "postcss-modules-values-replace": "^3.4.0",
+    "postcss-url": "^10.1.3",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "typescript-plugin-css-modules": "^3.4.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
