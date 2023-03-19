@@ -1,0 +1,37 @@
+.recipe {
+    border: 1px solid green;
+}
+
+.brickConnection {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.brickConnectionInputs {
+    display: flex;
+}
+
+.brickWithParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.brickParentConnectionLine {
+    height: 16px;
+    width: 0px;
+    border-left: 1px solid black;
+}
+
+.brick {
+    border: 1px solid purple;
+    margin: 0 16px;
+    max-width: 600px;
+    padding: 16px;
+}
+
+.step {
+
+}
